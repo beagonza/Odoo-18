@@ -142,7 +142,7 @@ Este proceso:
 * Inicia los contenedores.
 
 ```bash
-sudo docker compose up
+cd ~/odoo18
 ```
 
 ### Levantar nuevamente
@@ -155,6 +155,11 @@ sudo docker compose up
 
 ```bash
 sudo docker compose up -d
+```
+### Mostrar
+
+```bash
+sudo docker ps
 ```
 
 ### Detener contenedores
